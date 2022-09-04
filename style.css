@@ -1,0 +1,58 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 80vh;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#dot {
+    width: 20%;
+    height: 5vh;
+    margin: 2vh 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 10vh auto;
+}
+
+a {
+    width: 2vw;
+    height: 2.5vh;
+    background-color: #b0b0b0;
+    border-radius: 100%;
+    transition: background-color .5s ease;
+}
+
+.img {
+    display: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+#page {
+    margin-left: 9%;
+    width: 80%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 32vh;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+span {
+    background-color: #1d2129;
+    color: aliceblue;
+    font-size: larger;
+    padding: 2%;
+    border-radius: 50%;
+}
+
+img {
+    transition: all 500ms ease;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slide-show</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="container">
+        <img src="1.jpeg" alt="" class="img" id="1">
+        <img src="2.jpeg" alt="" class="img" id="2">
+        <img src="3.jpeg" alt="" class="img" id="3">
+        <img src="4.webp" alt="" class="img" id="4">
+    </section>
+    <div id="page">
+        <span onclick="plusSlides(-1);"><</span>
+        <span onclick="plusSlides(1)">></span>
+    </div>
+    <section id="dot">
+        <a class="dots" onclick="currentSlide(0)"></a>
+        <a class="dots" onclick="currentSlide(1)"></a>
+        <a class="dots" onclick="currentSlide(2)"></a>
+        <a class="dots" onclick="currentSlide(3)"></a>
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>
